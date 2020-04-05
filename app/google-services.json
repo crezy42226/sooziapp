@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "205083366828",
+    "firebase_url": "https://fuinykook.firebaseio.com",
+    "project_id": "fuinykook",
+    "storage_bucket": "fuinykook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205083366828:android:14c88a581970e29e361609",
+        "android_client_info": {
+          "package_name": "com.crezy.fuinykook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205083366828-htdjopg5jjthv3e17bsn3sr4b03hs49u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ2SA48Hny1Kkzuu1Ux38NCRszs6jDfsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205083366828-htdjopg5jjthv3e17bsn3sr4b03hs49u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

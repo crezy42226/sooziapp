@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+            android:id="@+id/laiout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+
+                android:layout_margin="5dp"
+
+
+                android:src="@drawable/tome"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageTv"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleTv"
+                android:text="titl"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@+id/imageTv"
+                android:layout_toEndOf="@+id/imageTv"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/dosTv"
+                android:text="dos"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/titleTv"
+                android:gravity="center_horizontal"
+                android:layout_toRightOf="@+id/imageTv"
+                android:layout_toEndOf="@+id/imageTv" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_below="@+id/laiout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+
+
+                android:id="@+id/pLikesTv"
+                android:text="1.2k الاعجابات"
+                android:layout_weight="1"
+                android:textColor="#D3FF5722"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_below="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/imageTvLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:src="@drawable/chanhe"
+                android:drawableLeft="@drawable/ic_share_black_24dp"
+                android:drawableStart="@drawable/ic_share_black_24dp"
+                android:drawablePadding="5dp"
+                android:background="@android:color/white"/>
+            <Button
+                android:id="@+id/likeBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="اعجاب"
+
+
+                android:background="@android:color/white"
+                android:drawablePadding="5dp"
+                />
+            <Button
+                android:id="@+id/commentBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="التعليقات"
+                android:drawableLeft="@drawable/ic_message_black_24dp"
+                android:background="@android:color/white"
+                android:drawablePadding="5dp"
+                android:drawableStart="@drawable/ic_message_black_24dp" />
+
+            <Button
+                android:id="@+id/shareBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="مشاركةالنكته"
+                android:src="@drawable/ic_share_black_24dp"
+                android:drawableLeft="@drawable/ic_share_black_24dp"
+                android:drawablePadding="5dp"
+                android:background="@android:color/white"
+                android:drawableStart="@drawable/ic_share_black_24dp"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
